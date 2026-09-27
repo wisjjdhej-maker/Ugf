@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>สุขภาพจิตวัยรุ่น | คู่มือดูแลใจ</title>
+<style>
+:root{--p:#0d9488;--p2:#115e59;--a:#14b8a6;--bg:#f0fdfa;--t:#134e4a;--soft:#ccfbf1}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Segoe UI","Sarabun",sans-serif;background:var(--bg);color:var(--t);line-height:1.8}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+.navbar{position:sticky;top:0;z-index:99;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid #99f6e4}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:800;color:var(--p2);text-decoration:none;font-size:1.05rem}
+.nav-links{display:flex;gap:4px;list-style:none;align-items:center}
+.nav-links a{text-decoration:none;color:var(--t);font-weight:600;font-size:.88rem;padding:8px 12px;border-radius:8px}
+.nav-links a:hover{background:var(--soft);color:var(--p2)}
+.hamburger{display:none;background:none;border:none;font-size:1.5rem;color:var(--p);cursor:pointer}
+.hero{background:linear-gradient(135deg,#0d9488,#14b8a6);color:#fff;padding:70px 0;text-align:center}
+.tag{display:inline-block;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);padding:5px 16px;border-radius:999px;font-size:.8rem;font-weight:700;letter-spacing:1px;margin-bottom:14px}
+.hero h1{font-size:clamp(1.8rem,5vw,2.8rem);font-weight:900;line-height:1.2;margin-bottom:12px}
+.hero p{max-width:600px;margin:0 auto;color:rgba(255,255,255,.95)}
+section{padding:56px 0}
+.head{margin-bottom:36px}
+.head .eyebrow{color:var(--p2);font-size:.8rem;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.head h2{font-size:clamp(1.4rem,3.5vw,1.9rem);font-weight:900;margin:6px 0 8px}
+.head p{color:#475569;max-width:720px}
+.content{background:#fff;border-radius:16px;padding:32px;box-shadow:0 6px 20px rgba(13,148,136,.06);border:1px solid #99f6e4}
+.content h3{color:var(--p2);font-size:1.15rem;font-weight:800;margin:22px 0 10px;padding-left:14px;border-left:4px solid var(--a)}
+.content h3:first-child{margin-top:0}
+.content p{color:#374151;margin-bottom:12px}
+.content ul,.content ol{margin:0 0 14px 22px;color:#374151}
+.content li{margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:20px 0}
+.box{background:var(--soft);border-radius:12px;padding:20px;border-left:4px solid var(--p)}
+.box h4{color:var(--p2);font-size:1rem;font-weight:800;margin-bottom:8px}
+.box p{font-size:.9rem;color:#4b5563;margin:0}
+.fact{background:#fef9c3;border-left:4px solid #eab308;padding:16px 20px;border-radius:10px;margin:18px 0}
+.fact strong{color:#854d0e}
+.alert{background:#fee2e2;border-left:4px solid #dc2626;padding:18px 22px;border-radius:10px;margin:18px 0}
+.alert strong{color:#991b1b}
+.sources{background:#fff;border-radius:16px;padding:28px;box-shadow:0 6px 20px rgba(13,148,136,.06);border:1px solid #99f6e4}
+.sources h3{color:var(--p2);font-size:1.1rem;font-weight:800;margin-bottom:14px}
+.sources ol{margin-left:22px;color:#374151;font-size:.9rem}
+.sources li{margin-bottom:10px}
+.sources a{color:var(--p);text-decoration:none;word-break:break-word}
+footer{background:var(--p2);color:rgba(255,255,255,.85);padding:32px 0;text-align:center;font-size:.88rem}
+@media(max-width:760px){.hamburger{display:block}.nav-links{position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;padding:12px 16px;box-shadow:0 12px 24px rgba(13,148,136,.1);display:none}.nav-links.open{display:flex}.content,.sources{padding:22px}section{padding:44px 0}}
+</style>
+</head>
+<body>
+<nav class="navbar"><div class="container nav-inner">
+<a href="#top" class="logo">💚 สุขภาพจิตวัยรุ่น</a>
+<button class="hamburger" onclick="document.getElementById('nl').classList.toggle('open')">☰</button>
+<ul class="nav-links" id="nl">
+<li><a href="#why">ทำไมสำคัญ</a></li>
+<li><a href="#signs">สัญญาณเตือน</a></li>
+<li><a href="#stress">ความเครียด</a></li>
+<li><a href="#help">วิธีดูแลใจ</a></li>
+<li><a href="#crisis">ขอความช่วยเหลือ</a></li>
+<li><a href="#ref">อ้างอิง</a></li>
+</ul>
+</div></nav>
+
+<header class="hero" id="top"><div class="container">
+<span class="tag">MENTAL HEALTH 2025</span>
+<h1>สุขภาพจิตวัยรุ่น</h1>
+<p>คู่มือทำความเข้าใจใจตัวเอง และวิธีขอความช่วยเหลือเมื่อต้องการ</p>
+</div></header>
+
+<section id="why"><div class="container">
+<div class="head"><span class="eyebrow">WHY IT MATTERS</span><h2>ทำไมสุขภาพจิตจึงสำคัญ</h2></div>
+<div class="content">
+<h3>วัยรุ่นเป็นช่วงเปลี่ยนผ่านครั้งใหญ่</h3>
+<p>สมองส่วน prefrontal cortex ยังพัฒนาไม่เต็มที่ ทำให้ควบคุมอารมณ์และตัดสินใจได้ยากกว่าผู้ใหญ่ ประกอบกับความกดดันเรื่องเรียน เพื่อน ครอบครัว และโซเชียลมีเดีย</p>
+<h3>สถิติที่น่ากังวล</h3>
+<div class="fact">
+<strong>📊 ตัวเลขสำคัญ:</strong> WHO ระบุว่า 1 ใน 7 ของวัยรุ่นอายุ 10–19 ปีทั่วโลก มีปัญหาสุขภาพจิตร่วมด้วย และการฆ่าตัวตายเป็นสาเหตุการเสียชีวิตอันดับ 4 ในกลุ่มอายุ 15–29 ปี
+</div>
+<h3>ผลกระทบระยะยาว</h3>
+<ul>
+<li>ผลการเรียนลดลง ขาดสมาธิ</li>
+<li>ความสัมพันธ์กับคนรอบข้างเสียหาย</li>
+<li>เสี่ยงต่อการติดสารเสพติด</li>
+<li>ถ้าไม่รักษา อาจกลายเป็นโรคเรื้อรังในผู้ใหญ่</li>
+</ul>
+</div></div></section>
+
+<section id="signs" style="background:#e6fffa"><div class="container">
+<div class="head"><span class="eyebrow">WARNING SIGNS</span><h2>สัญญาณเตือนที่ควรสังเกต</h2></div>
+<div class="content">
+<div class="grid">
+<div class="box"><h4>😔 อารมณ์</h4><p>เศร้า หงุดหงิด โกรธง่าย รู้สึกว่างเปล่า ต่อเนื่องเกิน 2 สัปดาห์</p></div>
+<div class="box"><h4>😴 การนอน</h4><p>นอนไม่หลับ หลับมากเกินไป ตื่นกลางดึกบ่อย</p></div>
+<div class="box"><h4>🍽️ การกิน</h4><p>เบื่ออาหาร กินมากผิดปกติ น้ำหนักเปลี่ยนเร็ว</p></div>
+<div class="box"><h4>📚 การเรียน</h4><p>เกรดตก ไม่มีสมาธิ ไม่มีแรงจูงใจ</p></div>
+<div class="box"><h4>👥 สังคม</h4><p>ถอนตัวจากเพื่อน ไม่อยากเข้าสังคม</p></div>
+<div class="box"><h4>💭 ความคิด</h4><p>คิดลบกับตัวเอง พูดถึงความตาย หรือทำร้ายตัวเอง</p></div>
+</div>
+</div></div></section>
+
+<section id="stress"><div class="container">
+<div class="head"><span class="eyebrow">STRESS</span><h2>ความเครียดในวัยเรียน</h2></div>
+<div class="content">
+<h3>สาเหตุหลัก</h3>
+<ul>
+<li>ความกดดันเรื่องสอบ TCAS และการเลือกคณะ</li>
+<li>ความคาดหวังของพ่อแม่และครู</li>
+<li>การเปรียบเทียบตัวเองบนโซเชียลมีเดีย</li>
+<li>ปัญหาความสัมพันธ์กับเพื่อนหรือคนรัก</li>
+<li>ปัญหาครอบครัว การเงิน</li>
+</ul>
+<h3>วิธีจัดการความเครียด</h3>
+<ol>
+<li><strong>หายใจลึก ๆ 4-7-8</strong> — หายใจเข้า 4 วิ กลั้น 7 วิ ปล่อย 8 วิ</li>
+<li><strong>ออกกำลังกาย</strong> — อย่างน้อย 30 นาที 3–5 วัน/สัปดาห์</li>
+<li><strong>เขียนบันทึก</strong> — ระบายความรู้สึกออกมาเป็นตัวอักษร</li>
+<li><strong>ลดโซเชียล</strong> — กำหนดเวลาการใช้ อย่างน้อย 1 ชม. ก่อนนอน</li>
+<li><strong>คุยกับคนที่ไว้ใจ</strong> — เพื่อน ครู พ่อแม่</li>
+<li><strong>นอนให้พอ</strong> — วัยรุ่นควรนอน 8–10 ชม./คืน</li>
+</ol>
+</div></div></section>
+
+<section id="help" style="background:#e6fffa"><div class="container">
+<div class="head"><span class="eyebrow">SELF CARE</span><h2>วิธีดูแลใจตัวเองทุกวัน</h2></div>
+<div class="content">
+<div class="grid">
+<div class="box"><h4>☀️ เช้า</h4><p>ตื่นเวลาเดิมทุกวัน ออกไปรับแสงแดด 10 นาที</p></div>
+<div class="box"><h4>🎯 ระหว่างวัน</h4><p>แบ่งงานเป็นชิ้นเล็ก ใช้เทคนิค Pomodoro 25/5</p></div>
+<div class="box"><h4>🌙 ก่อนนอน</h4><p>ปิดจอ 1 ชม. ก่อนนอน อ่านหนังสือหรือฟังเพลงเบา ๆ</p></div>
+<div class="box"><h4>🤝 สังคม</h4><p>คุยกับเพื่อนที่ไว้ใจ อย่างน้อยสัปดาห์ละครั้ง</p></div>
+<div class="box"><h4>🎨 งานอดิเรก</h4><p>ทำงานอดิเรกที่ไม่เกี่ยวกับการเรียน วันละ 30 นาที</p></div>
+<div class="box"><h4>🍵 กิน–ดื่ม</h4><p>ดื่มน้ำเพียงพอ ลดคาเฟอีนและน้ำตาล</p></div>
+</div>
+</div></div></section>
+
+<section id="crisis"><div class="container">
+<div class="head"><span class="eyebrow">HELP</span><h2>เมื่อต้องการความช่วยเหลือด่วน</h2></div>
+<div class="alert">
+<strong>🚨 สายด่วนสุขภาพจิต กรมสุขภาพจิต กระทรวงสาธารณสุข</strong><br>
+โทร <b>1323</b> (ฟรี 24 ชั่วโมง) — ให้คำปรึกษาเรื่องสุขภาพจิต<br>
+สายด่วน <b>1669</b> — เหตุฉุกเฉินทางการแพทย์
+</div>
+<div class="content">
+<h3>ปรึกษาใครได้บ้าง</h3>
+<ul>
+<li><strong>ครูแนะแนว</strong> ในโรงเรียน — ใกล้ที่สุดและเข้าใจวัยรุ่น</li>
+<li><strong>พ่อแม่/ผู้ปกครอง</strong> — แม้จะกลัวแต่การบอกคือจุดเริ่มต้น</li>
+<li><strong>นักจิตวิทยา/จิตแพทย์</strong> — ที่ รพ.รัฐหรือเอกชน</li>
+<li><strong>เพื่อนสนิท</strong> — บางครั้งแค่มีคนรับฟังก็ช่วยได้มาก</li>
+</ul>
+<h3>ข้อควรหลีกเลี่ยง</h3>
+<ul>
+<li>อย่าเก็บปัญหาไว้คนเดียว</li>
+<li>อย่าใช้แอลกอฮอล์หรือยาเสพติดแก้ปัญหา</li>
+<li>อย่าตัดสินตัวเองรุนแรง</li>
+</ul>
+</div></div></section>
+
+<section id="ref" style="background:#e6fffa"><div class="container">
+<div class="sources">
+<h3>📚 แหล่งอ้างอิง</h3>
+<ol>
+<li>World Health Organization. <em>Mental health of adolescents</em>. <a href="https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health" target="_blank">who.int</a></li>
+<li>UNICEF. <em>The State of the World's Children: Mental Health</em>. <a href="https://www.unicef.org/reports/state-worlds-children-2021" target="_blank">unicef.org</a></li>
+<li>กรมสุขภาพจิต กระทรวงสาธารณสุข. <em>ข้อมูลสุขภาพจิต</em>. <a href="https://www.dmh.go.th" target="_blank">dmh.go.th</a></li>
+<li>สถาบันสุขภาพจิตเด็กและวัยรุ่นราชนครินทร์. <a href="https://www.thaiteen.net" target="_blank">thaiteen.net</a></li>
+<li>สำนักงานกองทุนสนับสนุนการสร้างเสริมสุขภาพ (สสส.). <a href="https://www.thaihealth.or.th" target="_blank">thaihealth.or.th</a></li>
+<li>American Academy of Child & Adolescent Psychiatry. <a href="https://www.aacap.org" target="_blank">aacap.org</a></li>
+</ol>
+</div></div></section>
+
+<footer><div class="container">
+<p>© 2568 สุขภาพจิตวัยรุ่น · จัดทำเพื่อการศึกษา</p>
+<p style="margin-top:6px;font-size:.82rem">หากกำลังมีปัญหาสุขภาพจิต โทร 1323 ทันที</p>
+</div></footer>
+</body>
+</html>
